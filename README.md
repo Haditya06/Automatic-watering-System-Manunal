@@ -16,12 +16,13 @@ sebelum saya menjelaskan fungsinya saya akan menjelaskan kenapa saya membuat pro
 
 ## ALAT yang saya pakai
 1. Esp32
-2. Relay Module 5 volt
-3. Water Pump 5 volt
-4. Resistive Moisture Soil Sensor
-5. batre kotak 9 volt
-6. kabel jummer
-7. lcd 16x2 12c
+2. Base Board esp32
+3. Relay Module 5 volt
+4. Water Pump 5 volt
+5. Resistive Moisture Soil Sensor
+6. batre kotak 9 volt
+7. kabel jummer
+8. lcd 16x2 12c
 
 
 ## Wiring 
