@@ -21,6 +21,7 @@ sebelum saya menjelaskan fungsinya saya akan menjelaskan kenapa saya membuat pro
 4. Resistive Moisture Soil Sensor
 5. batre kotak 9 volt
 6. kabel jummer
+7. lcd 16x2 12c
 
 
 ## Wiring 
