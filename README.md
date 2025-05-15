@@ -1,5 +1,5 @@
-# Automatic-watering-System-Manunal
-Automatic watering System Manunal BY Haditya And M. Ilham
+# Automatic-watering-System-Manual
+Automatic watering System Manual BY Haditya And M. Ilham
 
 
 
