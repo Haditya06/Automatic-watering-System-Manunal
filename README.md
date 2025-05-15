@@ -23,4 +23,22 @@ sebelum saya menjelaskan fungsinya saya akan menjelaskan kenapa saya membuat pro
 6. kabel jummer
 
 
+## Wiring 
+| Komponen                 | Pin ESP32      | Keterangan                        |
+| ------------------------ | -------------- | --------------------------------- |
+| **Soil Moisture Sensor** | `34 (Analog)`  | Output sensor ke pin analog ESP32 |
+|                          | GND            | GND ESP32                         |
+|                          | VCC            | 3.3V ESP32                        |
+| **Relay Module**         | `26 (Digital)` | IN relay ke pin kontrol ESP32     |
+|                          | VCC            | 5V ESP32                          |
+|                          | GND            | GND ESP32                         |
+| **Pompa Air**            | V+ (Power)     | Terhubung ke NO relay + VCC ext   |
+|                          | V-             | Ke GND eksternal atau GND relay   |
+| **LCD I²C**              | SDA            | `GPIO 21 (SDA)`                   |
+|                          | SCL            | `GPIO 22 (SCL)`                   |
+|                          | VCC            | 5V ESP32                          |
+|                          | GND            | GND ESP32                         |
+
+
+
 
