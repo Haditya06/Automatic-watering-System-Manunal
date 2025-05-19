@@ -34,6 +34,8 @@ sebelum saya menjelaskan fungsinya saya akan menjelaskan kenapa saya membuat pro
 | **Relay Module**         | `26 (Digital)` | IN relay ke pin kontrol ESP32     |
 |                          | VCC            | 5V ESP32                          |
 |                          | GND            | GND ESP32                         |
+|                          | NO             | Pompa air +                       |
+|                          | COM            | Batre 9 Volt +                    |
 | **Pompa Air**            | V+ (Power)     | NO Relay                          |
 |                          | V-             | - batre 9 volt                    |
 | **Batre 9 Volt**         | V-             | - batre 9 volt                    |
