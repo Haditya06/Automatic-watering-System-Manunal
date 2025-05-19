@@ -34,8 +34,10 @@ sebelum saya menjelaskan fungsinya saya akan menjelaskan kenapa saya membuat pro
 | **Relay Module**         | `26 (Digital)` | IN relay ke pin kontrol ESP32     |
 |                          | VCC            | 5V ESP32                          |
 |                          | GND            | GND ESP32                         |
-| **Pompa Air**            | V+ (Power)     | Terhubung ke NO relay + VCC ext   |
-|                          | V-             | Ke GND eksternal atau GND relay   |
+| **Pompa Air**            | V+ (Power)     | NO Relay                          |
+|                          | V-             | - batre 9 volt                    |
+| **Batre 9 Volt**         | V-             | - batre 9 volt                    |
+|                          | V+ (Power)     | COM Relay                         |
 | **LCD I²C**              | SDA            | `GPIO 21 (SDA)`                   |
 |                          | SCL            | `GPIO 22 (SCL)`                   |
 |                          | VCC            | 5V ESP32                          |
